@@ -1,10 +1,10 @@
-Part 1: Theoretical Understanding
+# Part 1: Theoretical Understanding
 
 [Ai-Tools theoretical flamework.pdf](https://github.com/user-attachments/files/20738046/Ai-Tools.theoretical.flamework.pdf)
 
-Part 2: Practical Implementation
+# Part 2: Practical Implementation
 
-Task 1: Classical ML with Scikit-learn
+# Task 1: Classical ML with Scikit-learn
 
 # Iris Flower Species Classification
 
@@ -289,7 +289,7 @@ Potential improvements and modifications:
 - **Transfer Learning**: Use pre-trained features for faster training
 - **Hyperparameter Tuning**: Systematic optimization of model parameters
 
-Task 3: NLP with spaCy
+# Task 3: NLP with spaCy
 
 # Amazon Review Analyzer
 
