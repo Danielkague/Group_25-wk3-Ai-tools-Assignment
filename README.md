@@ -640,6 +640,14 @@ Normalize slang or dialect terms to reduce misclassification risk.
 
 Use case: If certain terms from a minority dialect are associated with negative sentiment due to lack of training data, spaCy can be used to re-label or re-categorize them fairly.
 
+### Troubleshooting Challenge
+Troubleshooting refers to the process of identifying, diagnosing, and resolving problems in systems or processes. It also refers to a challenge that can be defined as a task or situation that requires the identification and correction of faults in a malfunctioning system. Challenges typically involve:
+-Limited time or high stakes
+-Incomplete or misleading data
+-Complex interdependencies
+-High cognitive load
+-Need for collaboration or communication
+
 ### Conclusion 
 
 By using tools like TensorFlow Fairness Indicators for subgroup evaluation and spaCy's rule-based systems for preprocessing, developers can detect, analyze, and address unfair bias—creating models that are not only accurate but also ethically responsible.
