@@ -601,3 +601,43 @@ To contribute to this project:
 2. Add new features or improve existing ones
 3. Update documentation and tests
 4. Submit a pull request
+   
+### Part 3: Ethics & Optimization (10%)
+
+### Part 3: Ethics & Optimization (10%)
+### 1. Ethical Considerations
+
+When developing machine learning models using datasets like MNIST or Amazon Reviews, there are several potential ethical biases to consider:
+
+### A. Potential Biases in MNIST or Amazon Reviews Models
+### MNIST (Handwritten Digits Dataset)
+Dataset Bias: MNIST primarily contains digits written by US Census Bureau employees in the 1990s. This could cause:
+
+Poor generalization to other handwriting styles (e.g., children, people from non-Western cultures).
+
+Lower performance for digits written with different writing instruments or cultural formats.
+
+### Amazon Reviews (Text Sentiment Dataset)
+Demographic Bias: Reviews may disproportionately reflect the language and opinions of specific demographic groups (e.g., English speakers from the U.S.).
+
+Sentiment Bias: Language used by certain groups (e.g., African-American Vernacular English or non-native English speakers) might be incorrectly interpreted as negative or neutral due to biased training data.
+
+Product Category Bias: Some product types may receive more or fewer positive reviews due to cultural preferences or gender norms, skewing model predictions.
+
+### B. Mitigating Biases Using Tools
+### 1. TensorFlow Fairness Indicators
+These indicators evaluate performance across subgroups (e.g., gender, age, language style) and provide visual dashboards.
+
+Use case: In Amazon Reviews, you could analyze accuracy, precision, and false positive rates for different user demographics or writing styles to spot unfair behavior.
+
+Example Fix: If the model underperforms on reviews with informal or regional language, retrain the model with a more representative dataset or apply data augmentation.
+
+### 2. spaCy’s Rule-Based Systems
+spaCy allows integration of custom rule-based NLP components, which can:
+
+Detect and flag potentially biased or sensitive language during preprocessing.
+
+Normalize slang or dialect terms to reduce misclassification risk.
+
+Use case: If certain terms from a minority dialect are associated with negative sentiment due to lack of training data, spaCy can be used to re-label or re-categorize them fairly.
+
