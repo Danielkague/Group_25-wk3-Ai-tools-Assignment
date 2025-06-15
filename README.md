@@ -604,7 +604,6 @@ To contribute to this project:
    
 ### Part 3: Ethics & Optimization (10%)
 
-### Part 3: Ethics & Optimization (10%)
 ### 1. Ethical Considerations
 
 When developing machine learning models using datasets like MNIST or Amazon Reviews, there are several potential ethical biases to consider:
