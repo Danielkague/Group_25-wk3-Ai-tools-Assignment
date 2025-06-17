@@ -667,8 +667,7 @@ Sequence generation tasks (e.g., language translation): Often use Cross-Entropy,
 ### Bonus task
 Use streamlit to create a web interface MNIST classifier
 
-``` bash ```
-
+```bash
 streamlit run app.py
 
 ### Conclusion 
