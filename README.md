@@ -674,7 +674,7 @@ streamlit run app.py
 ### Screen shot and Live demo link for MNIST Classifier
 https://drive.google.com/file/d/1bOp8x7t71-EYRf7HMwsrFndX2Fz7qlxH/view?usp=sharing 
 
-### Bonus task
+### Conclusion
 
 By using tools like pytorch Fairness Indicators for subgroup evaluation and spaCy's rule-based systems for preprocessing, developers can detect, analyze, and address unfair bias—creating models that are not only accurate but also ethically responsible.
 
