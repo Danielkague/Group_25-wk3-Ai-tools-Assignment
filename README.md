@@ -671,7 +671,8 @@ Use streamlit to create a web interface MNIST classifier
 streamlit run app.py
 ```
 
-
+### Screen shot and Live demo link for MNIST Classifier
+https://drive.google.com/file/d/1bOp8x7t71-EYRf7HMwsrFndX2Fz7qlxH/view?usp=sharing 
 
 ### Bonus task
 
