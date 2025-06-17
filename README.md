@@ -119,9 +119,9 @@ When you run the program, you'll see:
 - **Recall**: Of all flowers that are actually species X, how many did the program correctly identify?
 - **Confusion Matrix**: A table showing exactly which species get confused with which others
 
-Task 2: Deep Learning with TensorFlow/PyTorch
+# Task 2: Deep Learning with TensorFlow/PyTorch
 
-# MNIST Handwritten Digits Classification with CNN
+## MNIST Handwritten Digits Classification with CNN
 
 A complete implementation of a Convolutional Neural Network (CNN) for classifying handwritten digits from the MNIST dataset using TensorFlow/Keras. This project achieves >95% accuracy on the test set and includes comprehensive visualization and analysis tools.
 
