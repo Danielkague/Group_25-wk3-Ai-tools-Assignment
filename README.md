@@ -646,7 +646,7 @@ Use case: If certain terms from a minority dialect are associated with negative 
 ### Troubleshooting Challenge
 Troubleshooting refers to the process of identifying, diagnosing, and resolving problems in systems or processes. It also refers to a challenge that can be defined as a task or situation that requires the identification and correction of faults in a malfunctioning system. 
 
-``` Debug and fix pytorch code ```
+### Debug and fix pytorch code 
 1️⃣ Classification Tasks → Use Classification Losses
 Binary Classification (e.g., spam vs. not spam): Use Binary Cross-Entropy Loss (also called Log Loss)
 
