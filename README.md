@@ -664,6 +664,13 @@ Ranking problems (e.g., search engine results): Use Hinge Loss or Pairwise Ranki
 
 Sequence generation tasks (e.g., language translation): Often use Cross-Entropy, sometimes with teacher forcing and BLEU score as an eval metric
 
+### Bonus task
+Use streamlit to create a web interface MNIST classifier
+
+```bash```
+
+streamlit run app.py
+
 ### Conclusion 
 
 By using tools like pytorch Fairness Indicators for subgroup evaluation and spaCy's rule-based systems for preprocessing, developers can detect, analyze, and address unfair bias—creating models that are not only accurate but also ethically responsible.
