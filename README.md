@@ -80,10 +80,10 @@ You need to have Python installed on your computer with these libraries:
 - seaborn (for beautiful visualizations)
 
 ### Running the Program
-1. Save the code to a file called `app.py`
+1. Save the code to a file called `classical_ML_sci_kitlearn.ipynb`
 2. Open your command line or terminal
 3. Navigate to the folder containing the file
-4. Type: `python app.py`
+4. Click: `Run All`
 5. Watch as the program trains itself and shows you the results!
 
 ## Understanding the Output
@@ -119,7 +119,7 @@ When you run the program, you'll see:
 - **Recall**: Of all flowers that are actually species X, how many did the program correctly identify?
 - **Confusion Matrix**: A table showing exactly which species get confused with which others
 
-# Task 2: Deep Learning with TensorFlow/PyTorch
+# Task 2: Deep Learning with PyTorch
 
 ## MNIST Handwritten Digits Classification with CNN
 
@@ -452,10 +452,10 @@ reviews = [
 results = analyzer.analyze_multiple_reviews(reviews)
 ```
 
-### Running the Example
+### Running the Example with Jupyter notebooks/ Google colab
 
-```bash
-python amazon_review_analyzer.py
+```Navigate to NLP_with_spaCy.ipynb then click Run All
+
 ```
 
 This will run the analysis on the included sample reviews and display detailed results.
@@ -644,16 +644,28 @@ Normalize slang or dialect terms to reduce misclassification risk.
 Use case: If certain terms from a minority dialect are associated with negative sentiment due to lack of training data, spaCy can be used to re-label or re-categorize them fairly.
 
 ### Troubleshooting Challenge
-Troubleshooting refers to the process of identifying, diagnosing, and resolving problems in systems or processes. It also refers to a challenge that can be defined as a task or situation that requires the identification and correction of faults in a malfunctioning system. Challenges typically involve:
--Limited time or high stakes
--Incomplete or misleading data
--Complex interdependencies
--High cognitive load
--Need for collaboration or communication
+Troubleshooting refers to the process of identifying, diagnosing, and resolving problems in systems or processes. It also refers to a challenge that can be defined as a task or situation that requires the identification and correction of faults in a malfunctioning system. 
+
+1️⃣ Classification Tasks → Use Classification Losses
+Binary Classification (e.g., spam vs. not spam): Use Binary Cross-Entropy Loss (also called Log Loss)
+
+Multi-Class Classification (e.g., digit recognition 0–9): Use Categorical Cross-Entropy Loss
+
+Multi-Label Classification (e.g., tagging an image with multiple labels): Use Binary Cross-Entropy per label with sigmoid activation
+
+2️⃣ Regression Tasks → Use Regression Losses
+Standard Regression (e.g., predicting house prices): Use Mean Squared Error (MSE) or Mean Absolute Error (MAE)
+
+Robust Regression (to reduce impact of outliers): Try Huber Loss or Quantile Loss
+
+3️⃣ Ranking or Structured Outputs
+Ranking problems (e.g., search engine results): Use Hinge Loss or Pairwise Ranking Loss
+
+Sequence generation tasks (e.g., language translation): Often use Cross-Entropy, sometimes with teacher forcing and BLEU score as an eval metric
 
 ### Conclusion 
 
-By using tools like TensorFlow Fairness Indicators for subgroup evaluation and spaCy's rule-based systems for preprocessing, developers can detect, analyze, and address unfair bias—creating models that are not only accurate but also ethically responsible.
+By using tools like pytorch Fairness Indicators for subgroup evaluation and spaCy's rule-based systems for preprocessing, developers can detect, analyze, and address unfair bias—creating models that are not only accurate but also ethically responsible.
 
 
 
