@@ -80,10 +80,10 @@ You need to have Python installed on your computer with these libraries:
 - seaborn (for beautiful visualizations)
 
 ### Running the Program
-1. Save the code to a file called `iris_classifier.py`
+1. Save the code to a file called `app.py`
 2. Open your command line or terminal
 3. Navigate to the folder containing the file
-4. Type: `python iris_classifier.py`
+4. Type: `python app.py`
 5. Watch as the program trains itself and shows you the results!
 
 ## Understanding the Output
@@ -123,7 +123,7 @@ When you run the program, you'll see:
 
 ## MNIST Handwritten Digits Classification with CNN
 
-A complete implementation of a Convolutional Neural Network (CNN) for classifying handwritten digits from the MNIST dataset using TensorFlow/Keras. This project achieves >95% accuracy on the test set and includes comprehensive visualization and analysis tools.
+A complete implementation of a Convolutional Neural Network (CNN) for classifying handwritten digits from the MNIST dataset using Pytorch. This project achieves >95% accuracy on the test set and includes comprehensive visualization and analysis tools.
 
 ## Overview
 
@@ -160,12 +160,15 @@ The CNN consists of three main components:
 
 ## Requirements
 
-```python
-tensorflow >= 2.0
-numpy
-matplotlib
-scikit-learn
-seaborn
+```torch>=1.9.0
+torchvision>=0.10.0
+numpy>=1.19.5
+matplotlib>=3.4.3
+scikit-learn>=0.24.2
+seaborn>=0.11.2
+streamlit>=1.22.0
+Pillow>=9.0.0 
+opencv-python>=4.5.3
 ```
 
 ## How It Works
